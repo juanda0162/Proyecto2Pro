@@ -1,7 +1,7 @@
 package org.example.UI;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.example.UI.filtros.Bandera;
+import org.example.UI.filtros.*;
 import org.example.obj.ComandoFiltro;
 import org.example.obj.Imagen;
 
@@ -45,13 +45,82 @@ public class ImagenFrame extends JFrame {
             System.exit(0);
         });
 
+        menu.add(item);
+
+        item = new JMenuItem("Reset");
+        item.addActionListener(e -> {
+            logger.info("El usuario elimina filtros");
+            ComandoFiltro cmd = new Reset(modelo);
+            cmd.ejecutar();
+        });
+
+        menu.add(item);
+
         bar.add(menu);
 
         menu = new JMenu("Imagen");
         item = new JMenuItem("Gris");
         item.addActionListener(e -> {
             logger.info("El usuario convierte la imagen a escala de grises");
-            modelo.gris();
+            ComandoFiltro cmd = new Gris(modelo);
+            cmd.ejecutar();
+        });
+
+        menu.add(item);
+
+        item = new JMenuItem("Verdes");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a escala de verdes");
+            ComandoFiltro cmd = new Verde(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Rojos");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a escala de rojos");
+            ComandoFiltro cmd = new Rojo(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Azules");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a escala de azules");
+            ComandoFiltro cmd = new Azul(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Vertical");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a vertical");
+            ComandoFiltro cmd = new Vertical(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Horizontal");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a Horizontal");
+            ComandoFiltro cmd = new Horizontal(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Sal y pimienta");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a Sal y pimienta");
+            ComandoFiltro cmd = new SalYPimienta(modelo);
+            cmd.ejecutar();
+        });
+        menu.add(item);
+
+        item = new JMenuItem("Floyd Steinberg");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a Floyd Steinberg");
+            ComandoFiltro cmd = new Steinberg(modelo);
+            cmd.ejecutar();
         });
         menu.add(item);
 

@@ -35,3 +35,60 @@
 2023-04-24 21:26:08,922 INFO  [main] Se crea una imagen vacia de 600x400
 2023-04-24 21:26:44,180 INFO  [main] Se crea una imagen vacia de 600x400
 2023-04-24 21:58:26,807 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 22:30:19,826 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 22:30:22,266 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:30:23,821 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 22:30:25,777 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 22:30:27,742 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 22:30:29,040 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:30:30,232 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 22:30:33,050 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de azules
+2023-04-24 22:30:34,384 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:30:35,943 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de azules
+2023-04-24 22:30:37,518 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
+2023-04-24 22:30:39,737 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:30:41,424 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
+2023-04-24 22:31:07,469 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:31:09,792 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
+2023-04-24 22:31:13,300 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:31:14,770 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
+2023-04-24 22:31:18,655 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:31:20,302 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 22:31:22,132 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:33:08,531 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 22:33:14,957 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 22:33:16,703 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 22:33:18,396 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 22:33:19,610 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 22:33:20,991 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de azules
+2023-04-24 22:33:22,136 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a vertical
+2023-04-24 22:33:24,155 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 23:29:58,988 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:30:02,281 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:30:05,383 INFO  [AWT-EventQueue-0] D:\Users new\Documentos\CHERY\ALITAS LETRERO.jpg
+2023-04-24 23:30:10,340 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 23:30:12,220 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:30:13,608 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 23:30:14,898 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de azules
+2023-04-24 23:31:03,177 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:32:16,831 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:32:27,977 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:32:31,820 INFO  [AWT-EventQueue-0] D:\Users new\Documentos\CHERY\ALITAS.jpg
+2023-04-24 23:32:35,277 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:32:36,101 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:32:36,950 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 23:32:39,843 INFO  [AWT-EventQueue-0] El usuario sale del programa
+2023-04-24 23:32:43,701 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:32:45,046 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:32:52,011 INFO  [AWT-EventQueue-0] D:\Users new\Documentos\CHERY\ALITAS LETRERO.jpg
+2023-04-24 23:32:55,323 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:32:57,145 INFO  [AWT-EventQueue-0] El usuario elimina filtros
+2023-04-24 23:32:59,545 INFO  [AWT-EventQueue-0] El usuario elimina filtros
+2023-04-24 23:34:57,399 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:35:02,992 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:35:05,958 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:35:10,201 INFO  [AWT-EventQueue-0] D:\Users new\Documentos\CHERY\ALITAS.jpg
+2023-04-24 23:35:11,445 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:35:12,810 INFO  [AWT-EventQueue-0] El usuario elimina filtros
+2023-04-24 23:35:14,954 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:35:16,288 INFO  [AWT-EventQueue-0] El usuario elimina filtros

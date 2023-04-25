@@ -13,6 +13,7 @@ public class Imagen {
     private int ancho;
     private int alto;
     private int[][] pixeles;
+    private int[][] pixelesOriginales;
 
     private PropertyChangeSupport observado;
     private static Logger logger = LogManager.getRootLogger();
@@ -61,10 +62,12 @@ public class Imagen {
         ancho = bi.getWidth();
         alto = bi.getHeight();
 
+        pixelesOriginales = new int[ancho][alto];
         pixeles = new int[ancho][alto];
 
         for (int i = 0; i < ancho; i++) {
             for (int j = 0; j < alto; j++) {
+                pixelesOriginales[i][j] = bi.getRGB(i,j);
                 pixeles[i][j] = bi.getRGB(i,j);
             }
         }
@@ -92,5 +95,17 @@ public class Imagen {
 
     public void cambiosImagen() {
         observado.firePropertyChange("IMAGEN", false, true);
+    }
+
+    public void setPixeles(int[][] pixeles) {
+        this.pixeles = pixeles;
+    }
+
+    public int[][] getPixelesOriginales() {
+        return pixelesOriginales;
+    }
+
+    public void setPixelesOriginales(int[][] pixelesOriginales) {
+        this.pixelesOriginales = pixelesOriginales;
     }
 }
